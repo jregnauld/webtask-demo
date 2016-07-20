@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42B667F65FB0B1467F9A2F77 /* Pods_webtask_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EBF6058B9BE75ED09953AB /* Pods_webtask_demoTests.framework */; };
+		6D66DF0CFEBEC93F4A25E16C /* Pods_webtask_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4B0DFCC324406CC6FCCCF1 /* Pods_webtask_demo.framework */; };
 		F952382D1D3E78B100D8BF55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952382C1D3E78B100D8BF55 /* AppDelegate.swift */; };
 		F952382F1D3E78B100D8BF55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952382E1D3E78B100D8BF55 /* ViewController.swift */; };
 		F95238321D3E78B100D8BF55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95238301D3E78B100D8BF55 /* Main.storyboard */; };
 		F95238341D3E78B100D8BF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95238331D3E78B100D8BF55 /* Assets.xcassets */; };
 		F95238371D3E78B100D8BF55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95238351D3E78B100D8BF55 /* LaunchScreen.storyboard */; };
 		F95238421D3E78B100D8BF55 /* webtask_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95238411D3E78B100D8BF55 /* webtask_demoTests.swift */; };
+		F952384E1D3E7ABA00D8BF55 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952384D1D3E7ABA00D8BF55 /* Device.swift */; };
+		F95238501D3E809E00D8BF55 /* NSDate+webstask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952384F1D3E809E00D8BF55 /* NSDate+webstask.swift */; };
+		F97C73831D40111300F176D9 /* ApplicationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97C73821D40111300F176D9 /* ApplicationUser.swift */; };
+		FA6DEB07427F99BA2F5C681A /* Pods_webtask_demo_webtask_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0201CB47599F349A1D4A98AB /* Pods_webtask_demo_webtask_demoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0201CB47599F349A1D4A98AB /* Pods_webtask_demo_webtask_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webtask_demo_webtask_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4B0DFCC324406CC6FCCCF1 /* Pods_webtask_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webtask_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B01A032736EB5E819B3F60 /* Pods-webtask-demo-webtask-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtask-demo-webtask-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-webtask-demo-webtask-demoTests/Pods-webtask-demo-webtask-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		43643BDBD38E34DE45644659 /* Pods-webtask-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtask-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-webtask-demo/Pods-webtask-demo.release.xcconfig"; sourceTree = "<group>"; };
+		52EBF6058B9BE75ED09953AB /* Pods_webtask_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webtask_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D478D990DD260AADA8A00B9 /* Pods-webtask-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtask-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-webtask-demoTests/Pods-webtask-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2DFCBFA37275F86AAC79752 /* Pods-webtask-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtask-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webtask-demoTests/Pods-webtask-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D631FF2B9F0E6746EA8B2D9A /* Pods-webtask-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtask-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webtask-demo/Pods-webtask-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E2391FDC393B3F2DDFC8538F /* Pods-webtask-demo-webtask-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtask-demo-webtask-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webtask-demo-webtask-demoTests/Pods-webtask-demo-webtask-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F95238291D3E78B100D8BF55 /* webtask-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webtask-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F952382C1D3E78B100D8BF55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F952382E1D3E78B100D8BF55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +51,9 @@
 		F952383D1D3E78B100D8BF55 /* webtask-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webtask-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95238411D3E78B100D8BF55 /* webtask_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webtask_demoTests.swift; sourceTree = "<group>"; };
 		F95238431D3E78B100D8BF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F952384D1D3E7ABA00D8BF55 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Utils/Device.swift; sourceTree = "<group>"; };
+		F952384F1D3E809E00D8BF55 /* NSDate+webstask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+webstask.swift"; path = "Utils/NSDate+webstask.swift"; sourceTree = "<group>"; };
+		F97C73821D40111300F176D9 /* ApplicationUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationUser.swift; path = Domain/ApplicationUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D66DF0CFEBEC93F4A25E16C /* Pods_webtask_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +69,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B667F65FB0B1467F9A2F77 /* Pods_webtask_demoTests.framework in Frameworks */,
+				FA6DEB07427F99BA2F5C681A /* Pods_webtask_demo_webtask_demoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C257B9FA80A7D34E3CCA055 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2DFCBFA37275F86AAC79752 /* Pods-webtask-demoTests.debug.xcconfig */,
+				7D478D990DD260AADA8A00B9 /* Pods-webtask-demoTests.release.xcconfig */,
+				D631FF2B9F0E6746EA8B2D9A /* Pods-webtask-demo.debug.xcconfig */,
+				43643BDBD38E34DE45644659 /* Pods-webtask-demo.release.xcconfig */,
+				E2391FDC393B3F2DDFC8538F /* Pods-webtask-demo-webtask-demoTests.debug.xcconfig */,
+				22B01A032736EB5E819B3F60 /* Pods-webtask-demo-webtask-demoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB180F1DB0E9AB8776D36604 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EBF6058B9BE75ED09953AB /* Pods_webtask_demoTests.framework */,
+				1F4B0DFCC324406CC6FCCCF1 /* Pods_webtask_demo.framework */,
+				0201CB47599F349A1D4A98AB /* Pods_webtask_demo_webtask_demoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F95238201D3E78B100D8BF55 = {
 			isa = PBXGroup;
 			children = (
 				F952382B1D3E78B100D8BF55 /* webtask-demo */,
 				F95238401D3E78B100D8BF55 /* webtask-demoTests */,
 				F952382A1D3E78B100D8BF55 /* Products */,
+				6C257B9FA80A7D34E3CCA055 /* Pods */,
+				DB180F1DB0E9AB8776D36604 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +123,8 @@
 		F952382B1D3E78B100D8BF55 /* webtask-demo */ = {
 			isa = PBXGroup;
 			children = (
+				F97C73811D4010FD00F176D9 /* Domain */,
+				F952384C1D3E7A9D00D8BF55 /* Utils */,
 				F952382C1D3E78B100D8BF55 /* AppDelegate.swift */,
 				F952382E1D3E78B100D8BF55 /* ViewController.swift */,
 				F95238301D3E78B100D8BF55 /* Main.storyboard */,
@@ -96,6 +144,23 @@
 			path = "webtask-demoTests";
 			sourceTree = "<group>";
 		};
+		F952384C1D3E7A9D00D8BF55 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F952384D1D3E7ABA00D8BF55 /* Device.swift */,
+				F952384F1D3E809E00D8BF55 /* NSDate+webstask.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F97C73811D4010FD00F176D9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F97C73821D40111300F176D9 /* ApplicationUser.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F95238461D3E78B100D8BF55 /* Build configuration list for PBXNativeTarget "webtask-demo" */;
 			buildPhases = (
+				4850643D411C19B150DA9C67 /* [CP] Check Pods Manifest.lock */,
 				F95238251D3E78B100D8BF55 /* Sources */,
 				F95238261D3E78B100D8BF55 /* Frameworks */,
 				F95238271D3E78B100D8BF55 /* Resources */,
+				F453956FF7F54A78B80B83D4 /* [CP] Embed Pods Frameworks */,
+				ACE837D2801BE6835C880F8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F95238491D3E78B100D8BF55 /* Build configuration list for PBXNativeTarget "webtask-demoTests" */;
 			buildPhases = (
+				F9DEFBFAB288325A833F376A /* [CP] Check Pods Manifest.lock */,
 				F95238391D3E78B100D8BF55 /* Sources */,
 				F952383A1D3E78B100D8BF55 /* Frameworks */,
 				F952383B1D3E78B100D8BF55 /* Resources */,
+				CEF2FBE9E759BC83CA6AB18F /* [CP] Embed Pods Frameworks */,
+				4711F6E6896CFF8F0147A1B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,12 +263,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4711F6E6896CFF8F0147A1B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webtask-demo-webtask-demoTests/Pods-webtask-demo-webtask-demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4850643D411C19B150DA9C67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE837D2801BE6835C880F8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webtask-demo/Pods-webtask-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF2FBE9E759BC83CA6AB18F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webtask-demo-webtask-demoTests/Pods-webtask-demo-webtask-demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F453956FF7F54A78B80B83D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webtask-demo/Pods-webtask-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DEFBFAB288325A833F376A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F95238251D3E78B100D8BF55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F952384E1D3E7ABA00D8BF55 /* Device.swift in Sources */,
 				F952382F1D3E78B100D8BF55 /* ViewController.swift in Sources */,
+				F95238501D3E809E00D8BF55 /* NSDate+webstask.swift in Sources */,
+				F97C73831D40111300F176D9 /* ApplicationUser.swift in Sources */,
 				F952382D1D3E78B100D8BF55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,28 +494,43 @@
 		};
 		F95238471D3E78B100D8BF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D631FF2B9F0E6746EA8B2D9A /* Pods-webtask-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "webtask-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ninja.jregnauld.webtask-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "156341bb-1254-4c45-aaba-4005447508cb";
 			};
 			name = Debug;
 		};
 		F95238481D3E78B100D8BF55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43643BDBD38E34DE45644659 /* Pods-webtask-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "webtask-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ninja.jregnauld.webtask-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "156341bb-1254-4c45-aaba-4005447508cb";
 			};
 			name = Release;
 		};
 		F952384A1D3E78B100D8BF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2391FDC393B3F2DDFC8538F /* Pods-webtask-demo-webtask-demoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "webtask-demoTests/Info.plist";
@@ -361,6 +543,7 @@
 		};
 		F952384B1D3E78B100D8BF55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B01A032736EB5E819B3F60 /* Pods-webtask-demo-webtask-demoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "webtask-demoTests/Info.plist";
@@ -390,6 +573,7 @@
 				F95238481D3E78B100D8BF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F95238491D3E78B100D8BF55 /* Build configuration list for PBXNativeTarget "webtask-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +582,7 @@
 				F952384B1D3E78B100D8BF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

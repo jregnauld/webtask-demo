@@ -1,0 +1,13 @@
+
+target 'webtask-demo' do
+
+use_frameworks!
+pod 'Alamofire'
+pod 'GBDeviceInfo'
+
+target 'webtask-demoTests' do
+    pod 'Quick', '~> 0.9.1'
+    pod 'Nimble', '3.2.0'
+    pod 'OHHTTPStubs', '~> 5.1.0'
+end
+end

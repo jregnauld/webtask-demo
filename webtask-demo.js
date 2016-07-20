@@ -45,7 +45,7 @@ function saveUserLog(UUID, date, db, cb) {
 }
 
 module.exports = function(ctx, done) {
-  	var applicationUser = new ApplicationUser(ctx.data.UUID, ctx.data.deviceType, ctx.data.systemVersion, ctx.data.deviceName);
+  	var applicationUser = new ApplicationUser(ctx.data.UUID, ctx.data.deviceType, ctx.data.systemVersion, ctx.data.deviceName, ctx.data.country, ctx.data.timeZone, ctx.data.version, ctx.data.lastConnection);
    	var asyncTasks = [];
 
     MongoClient.connect(ctx.data.MONGO_URL, function (err, db) {
