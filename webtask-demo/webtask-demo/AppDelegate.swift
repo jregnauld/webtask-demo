@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                   "timeZone": timeZone,
                   "version": applicationVersion + " (" + applicationBuild + ")",
                   "lastConnection": NSDate().now()];
-    Alamofire.request(.GET, "https://webtask.it.auth0.com/api/run/wt-j_regnauld-gmail_com-0/webtask-demo", parameters: params)
+    Alamofire.request(.GET, ProjectURL.webtaskDemo, parameters: params)
       .validate(statusCode: 200..<300)
       .response { response in
         print(response.2)
