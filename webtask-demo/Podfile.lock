@@ -1,6 +1,5 @@
 PODS:
   - Alamofire (3.4.0)
-  - Cartography (0.6.0)
   - GBDeviceInfo (4.1.0):
     - GBDeviceInfo/Core (= 4.1.0)
   - GBDeviceInfo/Core (4.1.0)
@@ -18,27 +17,22 @@ PODS:
   - OHHTTPStubs/NSURLSession (5.1.0):
     - OHHTTPStubs/Core
   - OHHTTPStubs/OHPathHelpers (5.1.0)
-  - Permission (1.4.2)
   - Quick (0.9.2)
 
 DEPENDENCIES:
   - Alamofire
-  - Cartography
   - GBDeviceInfo
   - Nimble (= 3.2.0)
   - OHHTTPStubs (~> 5.1.0)
-  - Permission
   - Quick (~> 0.9.1)
 
 SPEC CHECKSUMS:
   Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
-  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
   GBDeviceInfo: e50df975a95e21faec93e2bf98376846fe17d307
   Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
   OHHTTPStubs: 592f74439d2d72615115cf99a954237a3fbe26e5
-  Permission: e7e1c2555ffe8726a0c28e04799fe973116e5b3f
   Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
 
-PODFILE CHECKSUM: 7f20230000706135922106f50c8484b80c9a9def
+PODFILE CHECKSUM: 28757e81e1f5ba81036312156004906454d8521e
 
 COCOAPODS: 1.0.1
