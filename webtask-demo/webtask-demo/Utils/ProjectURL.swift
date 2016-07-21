@@ -9,5 +9,7 @@
 import Foundation
 
 struct ProjectURL {
-  static let webtaskDemo = "https://webtask.it.auth0.com/api/run/wt-j_regnauld-gmail_com-0/webtask-demo"
+  static let webtaskHost = "webtask.it.auth0.com"
+  static let webtaskPath = "/api/run/wt-j_regnauld-gmail_com-0/webtask-demo"
+  static let webtaskDemo = "https://" + webtaskHost + webtaskPath
 }

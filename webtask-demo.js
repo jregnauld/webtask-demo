@@ -65,7 +65,7 @@ module.exports = function(ctx, done) {
 		});
 		parallel(asyncTasks, function (err){
     		if(err) return done(err);
-    		var urlForNotifying = 'https://webtask.it.auth0.com/api/run/wt-j_regnauld-gmail_com-0/webtask-call-slack?webtask_no_cache=1&UUID=' + applicationUser.UUID;
+    		var urlForNotifying = 'https://webtask.it.auth0.com/api/run/wt-j_regnauld-gmail_com-0/webtask-call-slack?webtask_no_cache=1&UUID=' + applicationUser.UUID + '&lastConnection=applicationUser.lastConnection';
     		request.get(urlForNotifying).on('response', function(response) {
     			done(null, 'Success. ' + response.statusCode);
   			}).on('error', function(err) {

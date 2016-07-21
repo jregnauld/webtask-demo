@@ -19,6 +19,8 @@
 		F97C73831D40111300F176D9 /* ApplicationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97C73821D40111300F176D9 /* ApplicationUser.swift */; };
 		F97C73851D4011A700F176D9 /* ApplicationUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97C73841D4011A700F176D9 /* ApplicationUserTests.swift */; };
 		F97C73871D401C2B00F176D9 /* ProjectURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97C73861D401C2B00F176D9 /* ProjectURL.swift */; };
+		F9A9B0511D40C0A300C998A9 /* WebtaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A9B0501D40C0A300C998A9 /* WebtaskService.swift */; };
+		F9A9B0531D40C0E600C998A9 /* WebtaskServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A9B0521D40C0E600C998A9 /* WebtaskServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		F97C73821D40111300F176D9 /* ApplicationUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationUser.swift; path = Domain/ApplicationUser.swift; sourceTree = "<group>"; };
 		F97C73841D4011A700F176D9 /* ApplicationUserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationUserTests.swift; sourceTree = "<group>"; };
 		F97C73861D401C2B00F176D9 /* ProjectURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectURL.swift; path = Utils/ProjectURL.swift; sourceTree = "<group>"; };
+		F9A9B0501D40C0A300C998A9 /* WebtaskService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebtaskService.swift; path = Service/WebtaskService.swift; sourceTree = "<group>"; };
+		F9A9B0521D40C0E600C998A9 /* WebtaskServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebtaskServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 		F952382B1D3E78B100D8BF55 /* webtask-demo */ = {
 			isa = PBXGroup;
 			children = (
+				F9A9B04F1D40C08C00C998A9 /* Service */,
 				F97C73811D4010FD00F176D9 /* Domain */,
 				F952384C1D3E7A9D00D8BF55 /* Utils */,
 				F952382C1D3E78B100D8BF55 /* AppDelegate.swift */,
@@ -140,6 +145,7 @@
 			children = (
 				F95238431D3E78B100D8BF55 /* Info.plist */,
 				F97C73841D4011A700F176D9 /* ApplicationUserTests.swift */,
+				F9A9B0521D40C0E600C998A9 /* WebtaskServiceTests.swift */,
 			);
 			path = "webtask-demoTests";
 			sourceTree = "<group>";
@@ -160,6 +166,14 @@
 				F97C73821D40111300F176D9 /* ApplicationUser.swift */,
 			);
 			name = Domain;
+			sourceTree = "<group>";
+		};
+		F9A9B04F1D40C08C00C998A9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F9A9B0501D40C0A300C998A9 /* WebtaskService.swift */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +381,7 @@
 				F95238501D3E809E00D8BF55 /* NSDate+webstask.swift in Sources */,
 				F97C73831D40111300F176D9 /* ApplicationUser.swift in Sources */,
 				F952382D1D3E78B100D8BF55 /* AppDelegate.swift in Sources */,
+				F9A9B0511D40C0A300C998A9 /* WebtaskService.swift in Sources */,
 				F97C73871D401C2B00F176D9 /* ProjectURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F97C73851D4011A700F176D9 /* ApplicationUserTests.swift in Sources */,
+				F9A9B0531D40C0E600C998A9 /* WebtaskServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

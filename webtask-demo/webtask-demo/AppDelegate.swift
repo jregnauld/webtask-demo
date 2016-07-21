@@ -34,20 +34,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     print(timeZone)
     print(applicationVersion)
     print(applicationBuild)
-    var params = ["UUID": UUID!,
-                  "deviceType": currentDevice,
-                  "systemVersion": currentSystem,
-                  "deviceName": name,
-                  "country": region,
-                  "timeZone": timeZone,
-                  "version": applicationVersion + " (" + applicationBuild + ")",
-                  "lastConnection": NSDate().now()];
-    Alamofire.request(.GET, ProjectURL.webtaskDemo, parameters: params)
-      .validate(statusCode: 200..<300)
-      .response { response in
-        print(response.2)
-        
-    }
+//    var params: [String : AnyObject] = [
+//                  "webtask_no_cache": 1,
+//                  "UUID": UUID!,
+//                  "deviceType": currentDevice,
+//                  "systemVersion": currentSystem,
+//                  "deviceName": name,
+//                  "country": region,
+//                  "timeZone": timeZone,
+//                  "version": applicationVersion + " (" + applicationBuild + ")",
+//                  "lastConnection": NSDate().now()];
+//    print(ProjectURL.webtaskDemo)
+//    Alamofire.request(.GET, ProjectURL.webtaskDemo, parameters: params)
+//      .validate(statusCode: 200..<300)
+//      .response { response in
+//        print("tutu")
+//    }
     return true
   }
 

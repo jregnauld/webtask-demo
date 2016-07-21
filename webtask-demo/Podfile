@@ -5,6 +5,7 @@ def library
   pod 'GBDeviceInfo'
 end
 target 'webtask-demo' do
+  pod 'MBProgressHUD'
   library
 end
 target 'webtask-demoTests' do
@@ -12,4 +13,6 @@ target 'webtask-demoTests' do
   pod 'Quick', '~> 0.9.1'
   pod 'Nimble', '3.2.0'
   pod 'OHHTTPStubs', '~> 5.1.0'
+  pod 'OHHTTPStubs/Swift', '~> 5.1.0'
+  pod 'OHHTTPStubs/NSURLSession', '~> 5.1.0'
 end
