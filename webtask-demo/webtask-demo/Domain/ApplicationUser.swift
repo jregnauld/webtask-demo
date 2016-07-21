@@ -10,13 +10,26 @@ import Foundation
 import UIKit
 
 struct ApplicationUser {
-  let defaults: NSUserDefaults
+  private let defaults: NSUserDefaults
   let name: String
   let currentDevice: String
   let currentSystem: String
   let country: String
   let timeZone: String
   let lastConnection: String
+  var UUID: String {
+    mutating get {
+      if let UUID = self.defaults.stringForKey("UUID") {
+        return UUID
+      } else {
+        guard let newUUID:String = UIDevice.currentDevice().identifierForVendor?.UUIDString else {
+          return "undefined";
+        }
+        self.defaults.setObject(newUUID, forKey: "UUID")
+        return newUUID
+      }
+    }
+  }
   private var applicationVersion: String {
     guard let version  = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleShortVersionString") as? String else {
       return "undefined"
