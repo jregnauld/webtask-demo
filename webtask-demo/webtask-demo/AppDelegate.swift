@@ -16,41 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
-    let UUID = UIDevice.currentDevice().identifierForVendor?.UUIDString
-    let currentDevice = Device.CURRENT_DEVICE
-    let currentSystem = Device.CURRENT_VERSION
-    let name = UIDevice.currentDevice().name
-    let region = Device.CURRENT_REGION
-    let timeZone = NSTimeZone.localTimeZone().name
-    var applicationVersion:String = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleShortVersionString") as! String
-    var applicationBuild:String = NSBundle.mainBundle().objectForInfoDictionaryKey(kCFBundleVersionKey as String) as! String
- 
-    print("UUID:", UUID)
-    print("currentDevice:", currentDevice)
-    print("currentSystem:", currentSystem)
-    print("name:", name)
-    print("Date:", NSDate().now())
-    print(region)
-    print(timeZone)
-    print(applicationVersion)
-    print(applicationBuild)
-//    var params: [String : AnyObject] = [
-//                  "webtask_no_cache": 1,
-//                  "UUID": UUID!,
-//                  "deviceType": currentDevice,
-//                  "systemVersion": currentSystem,
-//                  "deviceName": name,
-//                  "country": region,
-//                  "timeZone": timeZone,
-//                  "version": applicationVersion + " (" + applicationBuild + ")",
-//                  "lastConnection": NSDate().now()];
-//    print(ProjectURL.webtaskDemo)
-//    Alamofire.request(.GET, ProjectURL.webtaskDemo, parameters: params)
-//      .validate(statusCode: 200..<300)
-//      .response { response in
-//        print("tutu")
-//    }
-    return true
+      return true
   }
 
   func applicationWillResignActive(application: UIApplication) {
