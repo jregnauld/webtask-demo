@@ -20,6 +20,7 @@ Install project libraries with the following command:
 pod install
 
 ``` 
+Open webtask-demo.xcworkspace with Xcode and build.
 
 See this link about Cocoapods
 
