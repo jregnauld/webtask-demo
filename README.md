@@ -6,7 +6,7 @@ What can we find through this project:
 - Xcode project using cocoapods
 - Javascript using Webtask
 - a MongoDB host on mLab
-- IFTTT for receiving a HTTP Request and post on Slack channel
+- IFTTT for receiving a HTTP Request and post on Slack channel ( Maker then Slack)
 
 ## Installation
 
@@ -24,5 +24,14 @@ pod install
 See this link about Cocoapods
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects.
+
+
+## Javascript
+
+- All javascript scripts are hosted on Webtask.io 
+
+- webtask-demo.js is a script to receive information from iOS devices and store in the database.
+
+- webtask-call-slack.js is a script which call IFTTT for notifying slack and sending users informations in JSON.
 
 
